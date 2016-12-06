@@ -1,0 +1,28 @@
+# Site settings
+title: Jeremy Nelson - SEO Consultant and Web Developer
+email: jerednel@gmail.com
+description: A blog about digital.
+url: "http://jeremynelson.xyz" # the base hostname & protocol for your site
+twitter_username: lavidajer
+paginate: 3
+# Build settings
+markdown: kramdown
+permalink: /:title
+gems: [jekyll-paginate]
+#Default settings
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: Jeremy
+      comments: true
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page

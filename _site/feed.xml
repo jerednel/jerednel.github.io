@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jeremy Nelson - SEO Consultant and Web Developer</title>
+    <description>A blog about digital.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 06 Dec 2016 22:22:42 +0000</pubDate>
+    <lastBuildDate>Tue, 06 Dec 2016 22:22:42 +0000</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Draft post</title>
+        <description>&lt;p&gt;This is a post about the Treehouse meetups.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 06 Dec 2016 22:06:38 +0000</pubDate>
+        <link>http://localhost:4000/a-new-post-draft</link>
+        <guid isPermaLink="true">http://localhost:4000/a-new-post-draft</guid>
+        
+        
+        <category>meets</category>
+        
+      </item>
+    
+      <item>
+        <title>Why I'm switching to Jekyll</title>
+        <description>&lt;p&gt;A simple blog requires a simple solution.  While I have other projects running that use more bloated solutions, this site is essentially just a simple blog.&lt;/p&gt;
+
+&lt;h1 id=&quot;so-why-jekyll&quot;&gt;So Why Jekyll?&lt;/h1&gt;
+
+&lt;p&gt;For one, it forces me to learn something new.  The idea of creating posts in a text editor and ‘git pushing’ the posts was not at all appealing at first.  But then the idea grew on me.  I’m forcing myself into a web development workflow and will inevitably learn more about Markdown, Git, Liquid, and possibly Ruby.&lt;/p&gt;
+
+&lt;p&gt;In addition to learning something new, I like the simplicity in approach.  A static website without a database should be fast.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/why-im-switching-to-jekyll</link>
+        <guid isPermaLink="true">http://localhost:4000/why-im-switching-to-jekyll</guid>
+        
+        
+        <category>coding</category>
+        
+      </item>
+    
+      <item>
+        <title>How to use Nokogiri to Scrape Image URLs in Ruby</title>
+        <description>&lt;p&gt;Nokogiri is a pretty powerful set of tools for scraping data from websites. When used strategically, it can help you carry out competitive research, audit your websites, check dynamic data sets (e.g. stock prices, ebay prices) and a lot more. I’ve found it’s pretty easy to actually use and requires a pretty minimal level of understanding in Ruby to get use out of it, which is perfect for me because I’m not a professional web developer.&lt;/p&gt;
+
+&lt;p&gt;I’ll take you through a scenario of how I managed to use Nokogiri to scrape common web data and how it has helped me work smarter.&lt;/p&gt;
+
+&lt;h1 id=&quot;problem&quot;&gt;Problem&lt;/h1&gt;
+
+&lt;p&gt;One of the items I was tasked with was auditing dozens of different image galleries across just as many websites. Doing this one by one was painstaking and took forever, especially when you have to click image by image and look through each caption.  The process was repetitive and seemed like something that could be automated.&lt;/p&gt;
+
+&lt;p&gt;For this to work, you need Ruby installed as well as the nokogiri gems.&lt;/p&gt;
+
+&lt;h1 id=&quot;solution&quot;&gt;Solution&lt;/h1&gt;
+
+&lt;p&gt;The first step was to get something working in Ruby. Once I could do it for one hotel, it is just a matter of From there I’d make it web based with Rails.&lt;/p&gt;
+
+&lt;p&gt;The below ruby script, when run, just uses Nokogiri to output the Image URL based on the HREF tag being present in am image tag with the CSSclass of Gallery.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'open-uri'&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#this is required to open the URLs we are going to scrape&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;#the next two lines are specific to my case.  ctyhocn is a code that differentiates the different URLs we are scraping.&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;ctyhocn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;LHRSPHI&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;http://www3.hilton.com/en/hotels/united-kingdom/&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ctyhocn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;/index.html&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;#create an empty array to store the image urls in&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;img_urls&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;#create an empty array to store impage captions in&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;img_captions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;#We are using both open-uri and nokogiri here.  Open-URI opens the URL and Nokogiri is parsing it so we can use its custom functions&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;doc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Nokogiri&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;HTML&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;#the .css function will store all of the matches it finds in the array we created&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;img_urls&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;doc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;css&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.gallery img'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'src'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#search through the CSS in the doc object for img tags with a class of Gallery and grab the element in its SRC tag&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;img_captions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;doc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;css&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.gallery .image_alt'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alt&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#grab the ALT element content from the CSS that contains gallery and image alt classes&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;#Prints out unique image urls&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;img_urls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;uniq&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Wed, 14 Oct 2015 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/how-to-use-nokogiri-to-scrape-image-urls-in-ruby</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-use-nokogiri-to-scrape-image-urls-in-ruby</guid>
+        
+        
+        <category>coding</category>
+        
+      </item>
+    
+      <item>
+        <title>Camp Sass</title>
+        <description>&lt;p&gt;Camp Sass is a one-day, one-track Sass conference held in Atlanta, GA. It’s hosted by Hampton Catlin, the inventor of Sass!&lt;/p&gt;
+
+&lt;p&gt;At this year’s conference, I had lots of fun, learned a ton, and met many talented web designers and developers.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Apr 2015 10:45:36 +0100</pubDate>
+        <link>http://localhost:4000/camp-sass</link>
+        <guid isPermaLink="true">http://localhost:4000/camp-sass</guid>
+        
+        
+        <category>conferences</category>
+        
+      </item>
+    
+      <item>
+        <title>SassConf</title>
+        <description>&lt;p&gt;SassConf is an awesome conference for front-end developers and designers who love Sass and are passionate about building a better, more beautiful web.&lt;/p&gt;
+
+&lt;p&gt;This year, the conference is in Austin, Texas!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 25 Apr 2015 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/sass-conf</link>
+        <guid isPermaLink="true">http://localhost:4000/sass-conf</guid>
+        
+        
+        <category>conferences</category>
+        
+      </item>
+    
+  </channel>
+</rss>

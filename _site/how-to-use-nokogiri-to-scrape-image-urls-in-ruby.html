@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>How to use Nokogiri to Scrape Image URLs in Ruby</title>
+  <meta name="description" content="Nokogiri is a pretty powerful set of tools for scraping data from websites. When used strategically, it can help you carry out competitive research, audit yo...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/how-to-use-nokogiri-to-scrape-image-urls-in-ruby">
+  <link rel="alternate" type="application/rss+xml" title="Jeremy Nelson - SEO Consultant and Web Developer" href="http://localhost:4000/feed.xml" />
+</head>
+
+
+  <body>
+	  <div class="wrapper">
+			<!-- Capture and store a URL -->
+
+
+<header class="main-header" role="banner">
+  <div class="grid">
+    <div class="grid__col--12">
+      <a class="site-logo" href="/" title="Webconfs.me – Home">
+        Jeremy Nelson
+      </a>
+      <nav class="navbar" role="navigation">
+        <ul class="nav">
+        
+        
+          
+          <li class="nav__item"><a href="/about/">About</a></li>
+          
+
+        
+        
+          
+          <li class="nav__item"><a href="/contact/">Contact</a></li>
+          
+
+        
+        
+          
+
+        
+        
+          
+
+        
+        
+          
+
+        
+        
+          
+          <li class="nav__item"><a href="/resources/">Resources</a></li>
+          
+
+        
+        
+          
+
+        
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+
+		  <div class="grid">
+	<div class="grid__col--12 post">
+    <header class="post__header">
+      <h1 class="post__title--grouped">How to use Nokogiri to Scrape Image URLs in Ruby</h1>
+      <div class="post__meta">
+        <b class="post__author">Jeremy</b>
+        <b class="post__sep">&#x25cf;</b>
+        <b class="post__date">Oct 14, 2015</b>
+      </div>
+    </header>
+		<!-- if the image exists then show it -->
+    
+    <article class="post__content">
+      <p>Nokogiri is a pretty powerful set of tools for scraping data from websites. When used strategically, it can help you carry out competitive research, audit your websites, check dynamic data sets (e.g. stock prices, ebay prices) and a lot more. I’ve found it’s pretty easy to actually use and requires a pretty minimal level of understanding in Ruby to get use out of it, which is perfect for me because I’m not a professional web developer.</p>
+
+<p>I’ll take you through a scenario of how I managed to use Nokogiri to scrape common web data and how it has helped me work smarter.</p>
+
+<h1 id="problem">Problem</h1>
+
+<p>One of the items I was tasked with was auditing dozens of different image galleries across just as many websites. Doing this one by one was painstaking and took forever, especially when you have to click image by image and look through each caption.  The process was repetitive and seemed like something that could be automated.</p>
+
+<p>For this to work, you need Ruby installed as well as the nokogiri gems.</p>
+
+<h1 id="solution">Solution</h1>
+
+<p>The first step was to get something working in Ruby. Once I could do it for one hotel, it is just a matter of From there I’d make it web based with Rails.</p>
+
+<p>The below ruby script, when run, just uses Nokogiri to output the Image URL based on the HREF tag being present in am image tag with the CSSclass of Gallery.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">require</span> <span class="s1">'open-uri'</span> <span class="c1">#this is required to open the URLs we are going to scrape</span>
+
+<span class="c1">#the next two lines are specific to my case.  ctyhocn is a code that differentiates the different URLs we are scraping.</span>
+
+<span class="n">ctyhocn</span> <span class="o">=</span> <span class="s2">"LHRSPHI"</span>
+<span class="n">url</span> <span class="o">=</span> <span class="s2">"http://www3.hilton.com/en/hotels/united-kingdom/"</span> <span class="o">+</span> <span class="n">ctyhocn</span> <span class="o">+</span> <span class="s2">"/index.html"</span>
+
+<span class="c1">#create an empty array to store the image urls in</span>
+<span class="n">img_urls</span> <span class="o">=</span> <span class="no">Array</span><span class="p">.</span><span class="nf">new</span>
+
+<span class="c1">#create an empty array to store impage captions in</span>
+<span class="n">img_captions</span> <span class="o">=</span> <span class="no">Array</span><span class="p">.</span><span class="nf">new</span>
+
+<span class="c1">#We are using both open-uri and nokogiri here.  Open-URI opens the URL and Nokogiri is parsing it so we can use its custom functions</span>
+<span class="n">doc</span> <span class="o">=</span> <span class="no">Nokogiri</span><span class="o">::</span><span class="no">HTML</span><span class="p">(</span><span class="nb">open</span><span class="p">(</span><span class="n">url</span><span class="p">))</span>
+
+<span class="c1">#the .css function will store all of the matches it finds in the array we created</span>
+<span class="n">img_urls</span> <span class="o">=</span> <span class="n">doc</span><span class="p">.</span><span class="nf">css</span><span class="p">(</span><span class="s1">'.gallery img'</span><span class="p">).</span><span class="nf">map</span><span class="p">{</span> <span class="o">|</span><span class="n">i</span><span class="o">|</span> <span class="n">i</span><span class="p">[</span><span class="s1">'src'</span><span class="p">]</span> <span class="p">}</span> <span class="c1">#search through the CSS in the doc object for img tags with a class of Gallery and grab the element in its SRC tag</span>
+<span class="n">img_captions</span> <span class="o">=</span> <span class="n">doc</span><span class="p">.</span><span class="nf">css</span><span class="p">(</span><span class="s1">'.gallery .image_alt'</span><span class="p">).</span><span class="nf">map</span><span class="p">{</span> <span class="o">|</span><span class="n">alt</span><span class="o">|</span> <span class="n">alt</span> <span class="p">}</span> <span class="c1">#grab the ALT element content from the CSS that contains gallery and image alt classes</span>
+
+<span class="c1">#Prints out unique image urls</span>
+<span class="nb">puts</span> <span class="n">img_urls</span><span class="p">.</span><span class="nf">uniq</span></code></pre></figure>
+
+
+    </article>
+		
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = '//jeremynelsonxyz.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                                
+
+	</div>
+</div>
+
+			<div class="push"></div>
+		</div>
+		 
+		<footer class="panel--centered" role="contentinfo">
+  <div class="grid">
+    <div class="centered grid__col--6">
+    	<img class="img--avatar" src="https://pbs.twimg.com/profile_images/805747280691298304/vbKmX7FI_400x400.jpg">
+      <p>A blog about digital. <br>
+        Follow <a href="https://twitter.com/lavidajer">@lavidajer</a> or
+        subscribe <a href="/feed.xml">via RSS</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+  </body>
+
+</html>
