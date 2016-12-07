@@ -5,22 +5,9 @@
     <description>A blog about digital.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Dec 2016 22:22:42 +0000</pubDate>
-    <lastBuildDate>Tue, 06 Dec 2016 22:22:42 +0000</lastBuildDate>
+    <pubDate>Wed, 07 Dec 2016 07:22:36 +0000</pubDate>
+    <lastBuildDate>Wed, 07 Dec 2016 07:22:36 +0000</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
-    
-      <item>
-        <title>Draft post</title>
-        <description>&lt;p&gt;This is a post about the Treehouse meetups.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 06 Dec 2016 22:06:38 +0000</pubDate>
-        <link>http://localhost:4000/a-new-post-draft</link>
-        <guid isPermaLink="true">http://localhost:4000/a-new-post-draft</guid>
-        
-        
-        <category>meets</category>
-        
-      </item>
     
       <item>
         <title>Why I'm switching to Jekyll</title>

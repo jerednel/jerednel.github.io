@@ -3,9 +3,9 @@
 // ==========================================================================
 
 .hero {
-	height: 335px;
-	background: url('#{$path--rel}/bg-main.jpg'),
-	            linear-gradient(#75da8f, #77cae9);
+	height: 552px;
+	background: url('#{$path--rel}/bg-header.jpg'),
+	            linear-gradient(#cccccc, #666666);
 	background-blend-mode: multiply;
 	background-repeat: no-repeat;
 	background-size: cover;

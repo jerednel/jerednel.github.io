@@ -14,13 +14,13 @@ layout: default
             <b class="post__date">{{ post.date | date: "%b %-d, %Y" }}</b>
           </div>
 
-          {{ post.excerpt }}
-
+          {{ post.content | strip_html | truncatewords: 50 }}
+<br />
           <a class="btn--default" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
         </li>
       {% endfor %}
     </ul>
-    
+
     {% if paginator.total_pages > 1 %}
     <div class="pagination">
       {% if paginator.previous_page %}
