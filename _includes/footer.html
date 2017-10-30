@@ -1,11 +1,6 @@
-<footer class="panel--centered" role="contentinfo">
-  <div class="grid">
-    <div class="centered grid__col--6">
-    	<img class="img--avatar" src="https://pbs.twimg.com/profile_images/805747280691298304/vbKmX7FI_400x400.jpg">
-      <p>{{ site.description }} <br>
-        Follow <a href="https://twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a> or
-        subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
-      </p>
-    </div>
-  </div>
+<footer class="footer">
+  {% for item in site.data.settings.social %}
+    <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
+  {% endfor %}
+  <div class="post-date"><a href="{{ site.github.url }}/">{{ site.data.settings.title }} | {{ site.data.settings.tagline }} by {{ site.data.authors.primary.name }}</a></div>
 </footer>

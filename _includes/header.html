@@ -1,23 +1,26 @@
-<!-- Capture and store a URL -->
-{% capture location %}{{ page.url | split:'/' }}{% endcapture %}
+<header class="site-header">
+  <h3 class="site-title">
+    <a href="{{ site.github.url }}/">{{ site.data.settings.title }}</a>
+  </h3>
+  <nav class="menu-list">
+    {% for item in site.data.settings.menu %}
+      <a href="{{ site.github.url }}/{{ item.folder }}/{{ item.file }}" class="menu-link">{{ item.name }}</a>
+    {% endfor %}
 
-<header class="main-header" role="banner">
-  <div class="grid">
-    <div class="grid__col--12">
-      <a class="site-logo" href="/" title="Jeremy Nelson">
-        Jeremy Nelson
-      </a>
-      <nav class="navbar" role="navigation">
-        <ul class="nav">
-        {% for page in site.pages %}
-        {% assign current = page.title | downcase %}
-          {% if page.title %}
-          <li {% if location == current %}class="nav__item--current"{% else %}class="nav__item"{% endif %}><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-          {% endif %}
+    {% for item in site.data.settings.social %}
+      <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
+    {% endfor %}
+  </nav>
+  <div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+    <div class="dropdown-content">
+      {% for item in site.data.settings.menu %}
+        <a href="{{ site.github.url }}/pages/{{ item.file }}" class="menu-link">{{ item.name }}</a>
+      {% endfor %}
 
-        {% endfor %}
-        </ul>
-      </nav>
+      {% for item in site.data.settings.social %}
+        <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
+      {% endfor %}
     </div>
   </div>
 </header>
