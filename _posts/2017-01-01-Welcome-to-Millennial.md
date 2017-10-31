@@ -3,7 +3,7 @@ layout: post
 author: "Jeremy Nelson"
 title: "How to use Nokogiri to Scrape Image URLs in Ruby"
 permalink: how-to-use-nokogiri-to-scrape-image-urls-in-ruby
-categories: coding
+categories: documentation
 tags: [python, nokogiri, scraping]
 image:
  feature: cuba-1.jpg
