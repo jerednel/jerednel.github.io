@@ -3,7 +3,7 @@ layout: post
 title: "Experiencing Seoul"
 permalink:experiencing-seoul
 author: "Jeremy Nelson"
-categories: documentation
+categories: travel
 tags: [documentation,sample]
 image:
   feature: arctic-1.jpg
