@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Experiencing Seoul"
-permalink:experiencing-seoul
+permalink: experiencing-seoul
 author: "Jeremy Nelson"
 categories: travel
-tags: [documentation,sample]
+tags: [travel, seoul, korea]
 image:
- feature: nature-1.jpg
+  feature: nature-1.jpg
 ---
 ![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170607_143755.jpg)
 
