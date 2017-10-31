@@ -8,7 +8,7 @@ tags: [documentation,sample]
 image:
   feature: arctic-1.jpg
 ---
-(https://jauntist.files.wordpress.com/2017/10/img_20170607_143755.jpg)
+![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170607_143755.jpg)
 
 <em>Annyeonghaseyo!  Kamsamnahida!  </em>The phrases that sum a newcomers experience in Korea perfectly.  Effervescent hospitality from various retail and service industry workers excited to pull you into their stores, clubs, and restaurants coming from nearly every direction.  This is Seoul.
 
@@ -21,25 +21,25 @@ As the inverse of luck would have it, my card did not work at any of the ATMs in
 
 # Seoul
 
-(https://jauntist.files.wordpress.com/2017/10/img_20170604_155509.jpg)
+![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170604_155509.jpg)
 
 As soon as we landed things got more cutesy.  Example?  A stuffed bear greeting us upon arrival in our Airbnb in Yongsan-gu near Sookmyung Women's University.  We even spotted a couple of Totoro's imported from Japan.
 
-(https://jauntist.files.wordpress.com/2017/10/img_20170605_094104.jpg)
+![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170605_094104.jpg)
 
-(https://jauntist.files.wordpress.com/2017/10/img_20170605_101709.jpg)
+![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170605_101709.jpg)
 
 The **Hello Kitty Cafe** in Myeongdong was one of the first places we went.  This place is adorned with Hello Kitty everything and is a dream for anybody into that.  As Ash is like obsessed with her we had to go here.  Above is my latte with Hello Kitty's face emblazoned atop my cream!
 
-(https://jauntist.files.wordpress.com/2017/10/img_20170605_094357.jpg)
+![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170605_094357.jpg)
 
 This place is pretty easy to get to, a short walk from Hongdae station, which, for us was the easiest way to get there.
 
-(https://jauntist.files.wordpress.com/2017/10/img_20170605_104148.jpg)
+![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170605_104148.jpg)
 
 After grabbing a coffee and relaxing in a pink vacuum for about an hour we took a walk over to a restaurant nearby that offers a good menu called **나물 먹는 곰 (Veggie Eating Bear)**. It has good options for vegetarians which can be somewhat difficult to track down if you don't know where you're going.
 
-(https://jauntist.files.wordpress.com/2017/10/img_20170605_122131.jpg)
+![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170605_122131.jpg)
 
 Fun fact: this is the first place to presume Ashley is local and offer her the Korean language menu and me the English menu.  (She is not Korean).  This was an amusing trend we noticed throughout.
 
@@ -48,42 +48,42 @@ It's pretty cool to just wander around the city and see where it takes you.  Yo
 
 We happened upon the <strong>Gyeongbokgung Palace</strong> while doing this which we learned is a popular spot for people to adorn the traditional hanbok and have photos taken in front of.
 
-(https://jauntist.files.wordpress.com/2017/10/img_20170606_111352.jpg)
+![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170606_111352.jpg)
 
-(https://jauntist.files.wordpress.com/2017/10/img_20170606_111836.jpg)
+![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170606_111836.jpg)
 
-(https://jauntist.files.wordpress.com/2017/10/img_20170606_132417.jpg)
+![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170606_132417.jpg)
 
 Close by the palace is a place called **Bukchon Hanok Village**, which is a traditional village in Seoul.  There are windy roads higher up the hills from the bottom roads with a ton of really interesting houses.
 
-(https://jauntist.files.wordpress.com/2017/10/img_20170606_121504.jpg)
+![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170606_121504.jpg)
 
 You could easily spend a day at least between the palace and the village just reading, walking and exploring.  There are tons of restaurants and bars nearby as well to refuel at.
 
 # Eating and Drinking Around
 
-(https://jauntist.files.wordpress.com/2017/10/img_20170608_112249.jpg)
+![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170608_112249.jpg)
 
 There are a ton of cafes in Seoul.  The Style Nanda Pink Hotel in Myeongdong was an interesting one as well.  I had a matcha latte with a cloud of cotton candy floating above it.  How do I eat it?  I'm not sure.  I just started chomping into the cloud after a couple of sips.
 
-(https://jauntist.files.wordpress.com/2017/10/img_20170610_154110.jpg)
+![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170610_154110.jpg)
 
 There is also a really good place to get Bibimbap in the same area called Gogung which I was hyped to eat at as a big fan of Bibbimbap.  It's very much a traditional restaurant and the food is great!
 
-(https://jauntist.files.wordpress.com/2017/10/img_20170610_191526.jpg)
+![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170610_191526.jpg)
 
 I couldn't leave without trying Korean Fried Chicken.  I've had amazing "KFC" in London at Jinjuu in Kingly Court and while different, this is really good.  Paired with beer, this is a favorite.
 
-(https://jauntist.files.wordpress.com/2017/10/img_20170607_215228.jpg)
+![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170607_215228.jpg)
 
 It never ceased to amaze just how hard it seemed Koreans go on a nightly basis.  It seemed no matter what day it was, the night was alive with business people and students staying out until the sun was close to rising just drinking and eating casually!  Very fun atmosphere.
 
 The place at the end of the street by us was open all night and morning it seemed.  We always stopped by there at the end of the night for a drink and snack before going to bed.  I was partial to the fried squid that you cut up with scissors combined with a beer.
 
-(https://jauntist.files.wordpress.com/2017/10/img_20170606_014557.jpg)
+![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170606_014557.jpg)
 
 There are hundreds of things to do in Seoul and my photos don't do the city justice.
 
-(https://jauntist.files.wordpress.com/2017/10/img_20170607_080053.jpg)
+![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170607_080053.jpg)
 
 From the early morning fish markets, to the dizzying area of cosmetic and makeup shops, to the fine dining and late night karaoke bars, Seoul is an electrifying city.
