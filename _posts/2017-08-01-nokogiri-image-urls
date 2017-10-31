@@ -6,7 +6,7 @@ permalink: nokogiri-image-urls
 categories: digital
 tags: [python, nokogiri, scraping]
 image:
- feature: cuba-1.jpg
+  feature: cuba-1.jpg
 ---
 
 Nokogiri is a pretty powerful set of tools for scraping data from websites. When used strategically, it can help you carry out competitive research, audit your websites, check dynamic data sets (e.g. stock prices, ebay prices) and a lot more. I’ve found it’s pretty easy to actually use and requires a pretty minimal level of understanding in Ruby to get use out of it, which is perfect for me because I’m not a professional web developer.
