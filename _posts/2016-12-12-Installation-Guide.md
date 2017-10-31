@@ -14,4 +14,4 @@ Kaggle recently opened up the results of their “State of Data Science and Mach
 
 If we look at salaries reported in USD, GBP and EUR, we can see a picture of which countries tend to have the highest compensations for data science roles.
 
-(img srhttps://cdn-images-1.medium.com/max/800/1*P6gFfn88mD9zM4Qpo8XlnA.png)
+![alt text](https://cdn-images-1.medium.com/max/800/1*P6gFfn88mD9zM4Qpo8XlnA.png)
