@@ -49,3 +49,5 @@ require 'open-uri' #this is required to open the URLs we are going to scrape
  #Prints out unique image urls
  puts img_urls.uniq
  {% endhighlight %}
+
+So there you have it.  Pulling image URLs with Nokogiri.
