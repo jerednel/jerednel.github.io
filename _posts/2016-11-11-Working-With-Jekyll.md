@@ -6,7 +6,7 @@ author: "Jeremy Nelson"
 categories: travel
 tags: [documentation,sample]
 image:
-  feature: arctic-1.jpg
+ feature: nature-1.jpg
 ---
 ![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170607_143755.jpg)
 
