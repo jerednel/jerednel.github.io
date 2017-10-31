@@ -11,6 +11,7 @@ disqus:
 
 menu:
 - {name: 'About', folder: 'pages', file: 'about.html'}
+- {name: 'Travel/Leisure', folder: 'pages', file:'travel-leisure.html'}
 - {name: 'Contact', folder: 'pages', file: 'contact.html'}
 
 social:
