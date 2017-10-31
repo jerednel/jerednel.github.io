@@ -6,7 +6,7 @@ description:
 
 # Change to true for Disqus comments
 disqus:
-  comments: false
+  comments: true
   disqus_shortname: 'millennial-3'
 
 menu:
