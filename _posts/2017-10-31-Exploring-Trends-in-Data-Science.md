@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Exploring Trends in Data Science in 2017"
+permalink: exploring-trends-in-data-science-in-2017
 author: "Jeremy Nelson"
 categories: documentation
 tags: [documentation,sample]
