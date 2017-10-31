@@ -8,9 +8,11 @@ tags: [travel, seoul, korea]
 image:
   feature: nature-1.jpg
 ---
-![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170607_143755.jpg)
+
 
 <em>Annyeonghaseyo!  Kamsamnahida!  </em>The phrases that sum a newcomers experience in Korea perfectly.  Effervescent hospitality from various retail and service industry workers excited to pull you into their stores, clubs, and restaurants coming from nearly every direction.  This is Seoul.
+
+![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170607_143755.jpg)
 
 Seoul was our first foray into Asia. Actually I lie. Shanghai was but that was on layover and I messed up what was supposed to be a quick run through downtown and dinner. So I guess we'll start there.
 
