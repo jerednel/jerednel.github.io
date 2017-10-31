@@ -3,4 +3,10 @@ layout: misc
 title: About
 ---
 
-Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused publishing platform for your publication site or blog. You can find everything you need to get started under documentation. For more information on how to install and use this theme, check out [the documentation]({{ site.github.url }}{% post_url 2017-01-01-Welcome-to-Millennial %}).
+Hey, I'm Jeremy and this is my personal site.  I am a digital media analytics manager with a background in digital marketing across B2B, hospitality, and finance verticals.
+
+I get to dig through large sets of data to glean insights that would otherwise be difficult to surface through the use of data warehousing and various tools such as R, Python, and Tableau.
+
+Education wise, I received my BA in Economics from the University of Iowa, and then an MS in Management of Information Systems from the University of Illinois-Springfield.
+
+I most recently spent two years in London
