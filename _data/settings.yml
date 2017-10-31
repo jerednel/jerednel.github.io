@@ -1,4 +1,4 @@
-title:  "Jeremy Nelson"
+title:  "jnel.xyz"
 tagline: "a blog in Chicago"
 description:
 
@@ -18,10 +18,10 @@ menu:
 - {name: 'Contact', folder: 'pages', file: 'contact.html'}
 
 social:
-- {icon: 'twitter', link: 'https://twitter.com/paululele'}
-- {icon: 'facebook', link: 'https://www.facebook.com/Le.Paul.94'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'envelope', link: 'mailto:l.nguyen.paul@gmail.com'}
+- {icon: 'twitter', link: 'https://twitter.com/lavidajer'}
+- {icon: 'facebook', link: 'https://www.facebook.com/jeremy.nels'}
+- {icon: 'instagram', link: 'https://instagram.com/hownear.howfar'}
+- {icon: 'envelope', link: 'mailto:jerednel@gmail.com'}
 - {icon: 'rss-square', link: 'feed.xml'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
