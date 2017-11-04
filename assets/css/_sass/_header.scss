@@ -5,6 +5,15 @@
   background-color: white;
   box-shadow: 0 5px 6px -6px #bbb;
 }
+.site-description {
+    clear: both;
+    color: #bbb;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 0.9166666666666667em;
+    font-weight: normal;
+    line-height: 56px;
+
+}
 @media (max-width: $container-width) {
   .site-header {
       min-height: 56px;
