@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Road Tripping Through Portugal"
+permalink: road-trip-portugal
+author: "Jeremy Nelson"
+categories: travel
+tags: [portugal, algarve, lisbon, europe]
+image:
+  feature: portugal-1.jpg
+---
+
+Our trip to Portugal started in the Algarve; the region on the southern cost of the country known for its nightlife, beaches, and golf courses.
+
+We rented a car and planned on spending a couple of nights in Albufeira then driving up north to Lisbon.
+
+<img src="https://lh3.googleusercontent.com/ui0bEOVRXs0G9KGVAiJ_Im4O4EgmrP426L6-3FlrY6d25GUnA5EA1-YM6ynJx0AJuLsajfqWUndHK26JzM2vlqsRdPPFlwBKW0UpmM-y1vUGGflHWpReSo-0ghiHWgdNJ9ywsvWUNsWwpjKxV2_NeHYwkcrINkZdDBm4GH8Lv0o7oyqKXuyrmCjkoX4iLYYKQBLnA6dHAx8pVglL2u5KHao-2Ql5JaLStKJzKMCFUbPwpzrzs9iNLQxw7EV-DvB6OGHxDR_w1KTaUwW4JBzEl8VumF7AoSJosNpHwGPWuOsRmXUn7G9uA13vwTnPBRw-5iTCK0dUg4dV9d4bjxN45sIzRuNgSysf4kkiWvpfDEtwBoKY2e14fd8WbrM0LX1gSjnaTbE7BOcjo6hyi1IKLXTxk054oFZQPgPJxRiXwu902qnb1VX5zBfeX7mZ25LrAi6dzmCzSCtGDaE6B6S7H5Pe7b3xLtCpJk1dNJkjyJ8tvspZGaOUoY2OaysBqdXmg0G5Gm7X3kDQQpOyQ2OZOfktE80AdEyZ319Ing_raSrJQKde3tET5Kz_EiDeA_cMBj3scTWgHKCfw_Us5VF5S6wE7RlexLFWLHuZQAh-4Q=w1055-h791-no">
+
+We stayed at a couple of different resorts, one being an all inclusive and the other being the Conrad Algarve.  The Conrad Algarve was miles apart in terms of quality and is one of the best hotels we've stayed at.  
+
+<img src="https://lh3.googleusercontent.com/5vD0zUPxNNcLv6YA4D93T7tCZfbo15kpufepgcPsmfdpsFip7a-_FYTx4-eDriWzL7bOCDkVDwQAFrM3XTd-QWrpK69SLX1s3lYHSRs33uU5hkjoPAZnUse4uPKHPUl_WnbHex8mcqJ_kZrXD5U9vELqd0WLWSuS3aOn4Asj1VurzZRm9KjZUBMtkZdnIiFUAv0yARZ8OiQKuXG7Rz2UOiy7BplhnQ7zbCnkBxpL04UtI4K4bKNflKkW4RdLuYl3SNAnSTaQPuAywPyRcQVc5QMIih3iTRMHQwmcpL2U7v3TdUfTTGQjjSJ50HDA7eT40kvKNWVad7z76oIRCMj2L5kZFzyo6Dv6fgsoqO_nelfy36elBsDvv19qS9IJU4JCd_sPzlhXopT95JgooaNJ-_0WgdFozdujuMwLOtoxqERijhDltLXBIoysN2rOl8bAziWZMSNNOjIKIm1FX9_RLtcZ2ox3SW4TLD6sX-_79VYlMSOrpVPDAK3MFqMucwH3locVPT6GOz95iXPA87C0MKYuZ3Bn8-n_CymIByGEHa5EMDUMEJ72_zsM_rqlqVQWdUUr9lI0CR2JWCaCc2QAIySUXoCVTf3J0HZzwAt6AA=w1195-h791-no">
+
+By far one of the coolest things I saw was the Bone Chapel in Faro.  It is located in the Igreja do Carmo and contains the bones of 1,000 Carmelite monks over the years.  Upon entering there is an inscription that reads (translated from Portuguese) *"Stop here and consider, that you will reach this state too.*
+
+<img src="https://lh3.googleusercontent.com/HK22xDc76H8qQrNMYla38UWM0w7GKe6lbrZjjds4mrBjTZo_ITzpS7thgde1QW4pi_2ulT_Aqr3ckY9GrMkF5z8e2O6C1i6Dl8GOk4EPUkAFn3fqKh2Zt_kjWGqN0A8QeEYHJKc4_AsOktHAEUZJGsTINYw4GqGBXzQFV5Spd5OzMRjbcUV0ZrCkavQ0poPN9OmyebGBklwaoES2ooMywBAgYPQgKppKQCc1bfBoOUFuqQ0C0YpdnEloiPh-aM3VhoH6udBsQ81Q7tWAAOTO8WZQNfwp7ScTRVzj_Se8heFSJEFCuhybur7axYs5pQuftxxQ4d5F2GryhSH10_AViDJvNU5BrBgfLY0ODR_zw8vcU4rEPX7KCu_qCse67ByAnKPEBg24-GW3BFY00IjAvwVVIKL1TA_f99wlnkStTaFSNG371O5oOSmUOOwm6VzFVAhxX63nd-3vm0LzEgbASMwZ7wtKcsgVpfSYgqC7sikXH8yJhBATkTFRiHkggUxhaqsnPtNEMA-doo68bWX5zvjjIRO57_0DgEEOK-ZANZgm8W989lFS8MUEHF9SsUrigSnABaqUQRusN4nNJC654N3QPvuc5b2dsDM-gfqAoA=w1195-h791-no">
+
+There is also an Old Town Albufeira that is worth spending some time at that has a number of restaurants lining winding streets that make their way up and down the streets of the town.  There are also some good beaches in the area.
+
+<img src="https://lh3.googleusercontent.com/KPnYcqkYfXVglcqIqo8XBtdw4khxQHMgHcRRq-19prVAIS5HoqpCDVYU9EP0fLfZiBPWUXv0Rf74_6IcULDh6SQZRqYsxoz4QtwqdM7n7hkA3AfhIQc8rCcJSlNC3DY6rp-1WXMSGdTdCvW_R4QdvC7q4kMe8xVwoxZB5krS1_JIF2C1BXB5-CcPWV7XR1DQ2y9eQ_eg1UMBv69JnJ15AfqlwA8_7H2-xVQI7AfPxTu0lcMkLa3DH9heATSON6SWlkAkfxiQtRjxMwpbgAsnRMBTCDSesrFYJ9BhbiuJxnI7SMsnhVhrYpfHUzek_74cbWdKs6gtqJRjsmhs0rkuBfSqXlun14KcM1k-AbZOK8TG_rjUMUN1F2UQ3K17wuSEYbNn0WN9-bnfzg8gMLwtxapAlJ7xIT9duBJPs9-jD_-YDoXeuuPsZh2NlAkfKHQ9O4hPF9FCDXV9p69uTrSoi7_JOh69ZJpnPeH8Z96oyoyOq0V2f732teUJl89I97QiEnR63RCjovy86SrHjousLQFUvk2jiTnJhYRkm-HeRIVDCYW0fPLfIGhasYZJj-JuiVSVFt1TByOIdVzB7R7XviDxQYNJC4czc4b5nctDQQ=w1195-h791-no">
+
+## Heading to lisbon
+
+After spending some time lounging on the beaches of Albufeira we hit the road.  It was only supposed to take a couple of hours driving.  But apparently my GPS was programmed to avoid toll roads and we ended up taking one of the most indirect routes to Lisbon completely bypassing what should have been a straight shot.  We ended up then taking smaller roads and driving through random towns along the way, which was an experience in itself!
+
+<img src="https://lh3.googleusercontent.com/KNdxdax-CnevrDBUnSHG9RuywctrP41vKsHAhRE2K1ihIVRCLvV8BDTP7yqxhknwwzGJMOnl9aWA7nAgC9FM5gz7tDnkiHX1xyFSUDNvx9vTGSD2HQk4xBaAnGzlyNcEmoo4EJDhTOnJpkQZGtuc_K1iGWXcbMr5o1-vds8UygWp5dPv_TQMuaY8APTDq3xPKjFm7DKu2-6TkXHjXOghLItN2I03TjZml72z5_VmIe10Jpj8Lu4VtpfamP2f58fScmomYBBzvvpXQ5qY11WQ6FzXNKeqMr3Rac_zghoefAxBZ-CdakdoSYLqhzWMl8h6kT0qSRy8dsl5yKIi_HF2m9vZeI2e3BRTbof8ZVpJBMyGZOwR2UlXDBsv_LmD-Dv5z4dohNJK-QYTEa2aoJVYoetlFRv9Ux2zCestSxnJmuFEyPZZOKrgt7aWjBdoYbdow31okde6kgL51zXgLF6bFR0FBdpxr3dDFLGVbHLiIQXtXY9iPDfDUurk1ahbR-bRtWfZjLbxJQz5A4pasWiHjc4Bb_3SbX_7NSYwcJ4MKRCYpVHykM1btdxPFI4R3dgri_pVkHESM539bOiON0dcTdrTCbIyUWY_gL8T3xalAQ=w1195-h791-no">
+
+Lisbon had food, hills, bars, and more hills.
+
+<img src="https://lh3.googleusercontent.com/xEEUhLPlhUMTBKRcsjy14zhYvb6fWFMEN70Wa_wsIAk1ePbauNTwS1VIgOprxgh_G1MEHZZ3urlvavRq7V4_a3MzSoe3YfrWe23CkwtKGVwdWDijE7CV2XRCb42WtqXRdXUTvDVUGjK1E2fkRpUD27NvhvO_yRsQwp0AzPFeEL7JbWr1RuAouKAY8PBK3gjrrOPfGvQd9y3jmEb1FkClnLY5tXEimnGFQJwJ5DUzgFOnDpfTJ4oLtu5pqcHoNSEw1W2YuT9NYEKR3Hm7MgWAysFDo1rfg0FNV2lOszqk9V-yFYNNSJaIHgNnePKofDq4Iircfq9hnF7pqjvDTI61goopgVBDQCeoBuL47YWapaklQGkul2VL_zJeG4tNn1f23lA71KorUA9dTZyhjTmXvJu3tyUNZZ5KEPTaH0ak5Mr2T1FFBeWF690C_sZyO4lJlnOMKV93dZxosAssMORTdNu-WYstcL2bE3ifruoq7GwGDTlR28sLKS_D69qg04DqbeEbPm7fQXv7TWJqdORXw3vA4GBwp1dpsInTp25nhdtyUiPcFuC3wk9miLcW10cpuAHpUYszCKpISdl88_2G90Psy1mLvj99bqCj7D1VSQ=w1195-h791-no">
+
+We ended up only spending a couple of nights here but really enjoyed the chance to get to see the Baixa and the Bairro Alto; the former being a more "downtowny" version of the city while the latter provided some amazing panoramic views of the city.
+
+<img src="https://lh3.googleusercontent.com/B28qrviwhmQBObpJTyQ8Y0XkfZPl7FuDLatpjT4bqim4L679PYbwGWGTr41QG34T5r36mJMBIA8bv1JAq4bjaVNcLH-Myh-Ee7YhVaZcp8-vFx1QMRNZVCwT1-v4muL6mmUn1Qbbljz7qr5BufmQKdpHxajgaQcWwmFKUCfZUZHMW-N1-sF9hlXuGXI21Q3dF0gId7Tg5VWVWXMaeIKlBCtROtcmCkv59dQCf3XwYNHL48ZjWELNlksFZzI55n2fZqNBQ3kvdwiZzE2ak3TLxBLOsdEmxpXLn4KrDT7ssmbN9p2bKpu2YxnZ-xVEJ2GldyoNroSflx69ktvB04f9AjOpanydvf15LGEdoCCWs9zZxMPAzRqAvdgeA4rWDYuEdPGSqFY7d-WHto8a1dr0Uz1mJPbi7Q8_8djg1MF0BuKRXoVOvLIALQXJet7idxCAAmmNu6139IMuwlTDNRhtPktSn_sZNQXJl5cRe_jF9RmXx5pGW82xjAAGbSo1y9me-KkJICNW1IzWSWf4aKlgzD7T0RiVHti5oRxDKxUvDaqzDft2JtnZoxTdbRssH8UjJFGnUl_qRqNlqmwfF1Yuf8JnsPoBI-ppz32Te9j42Q=w1055-h791-no">
+
+I would definitely go back and would love to return to spend more time in Lisbon.  I think renting a car is definitely the way to go because it's a country that lends itself well to exploring out of the metro areas if you can stomach driving through them to get out!
