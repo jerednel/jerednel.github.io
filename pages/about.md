@@ -9,4 +9,4 @@ I get to dig through large sets of data to glean insights that would otherwise b
 
 Education wise, I received my BA in Economics from the University of Iowa, and then an MS in Management of Information Systems from the University of Illinois-Springfield.
 
-I most recently spent two years in London
+I most recently spent two years in London working in the hospitality industry, looking after the digital performance of a group of hotels in London, Amsterdam and Paris.  I currently live in Chicago working on building analytics programs for clients in the financial services industry.
