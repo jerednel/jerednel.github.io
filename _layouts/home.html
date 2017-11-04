@@ -5,15 +5,28 @@ title: Home
 
 {% for post in paginator.posts %}
 
-<article>
+<article class="clear-fix">
+
   <a href="{{ site.github.url }}{{ post.url }}">
     <div class="featured-posts" {% if post.image.feature %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image.feature }})"{% endif %}>
-      <h2><span>{{ post.categories }}: {{ post.title }}</span></h2>
+      <h2><span>Posted in {{ post.categories }}</span></h2>
+
     </div>
-  </a>
+
+      </a>
+      <span><header class="entry-header"><a href="{{ site.github.url }}{{ post.url }}" style="text-decoration:none;"><h3>{{post.title}}</h3></a><span class="post-date">{{ post.date |  date: '%B %d, %Y'}}</span></header>
+      <div class="entry-summary clear-fix">{{ post.excerpt  | truncatewords:30}}
+
+        {% if post.content contains site.excerpt_separator %}
+                  <a href="{{ post.url | prepend: site.baseurl }}">...Read more</a>
+              {% endif %}
+      </div>
 </article>
 
+
+
 {% endfor %}
+
 
 <!-- Pagination links -->
 <div class="pagination">

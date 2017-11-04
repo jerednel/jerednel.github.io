@@ -8,7 +8,7 @@
     {% endfor %}
 
     {% for item in site.data.settings.social %}
-      <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
+      <a href="{{ item.link }}" class="menu-link-social" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
     {% endfor %}
   </nav>
   <div class="dropdown">
@@ -19,8 +19,9 @@
       {% endfor %}
 
       {% for item in site.data.settings.social %}
-        <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
+        <a href="{{ item.link }}" class="menu-link-social" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
       {% endfor %}
     </div>
   </div>
 </header>
+<img src="/assets/img/header.jpg" width="1080" style="max-width:1080px">

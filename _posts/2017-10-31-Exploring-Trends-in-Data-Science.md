@@ -9,7 +9,7 @@ image:
   feature: city-2.jpg
 ---
 
-Kaggle recently opened up the results of their “State of Data Science and Machine Learning” survey of its users and I thought it’d be interesting to start to explore that a bit.
+Kaggle recently opened up the results of their “State of Data Science and Machine Learning” survey of its users and I thought it’d be interesting to start to explore that a bit.  While the data generated provides a fascinating look into the current state of Data Science by country and industry, filtering by certain dimensions reduces the sample size considerably (i.e. if we wish to compare metrics for a given country in a given industry for people of similar experiences).
 
 # The US is the place to be
 
@@ -46,3 +46,5 @@ One thing we can start to see is that this is a lucrative field that spans an ar
 ![alt_text](https://cdn-images-1.medium.com/max/800/1*QGuNRG_DDdNiQbHFNTxbTA.png)
 
 Your typical data scientist in the US is 30–35 years old, male, and makes around $100k in the tech industry and studied computer science as an undergrad. They’ve likely been doing this for around 3–5 years and read the KDNuggets blog regularly.
+
+<!-- more -->
