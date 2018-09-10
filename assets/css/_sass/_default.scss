@@ -44,9 +44,9 @@
 }
 @media only screen and (max-width: 640px) {
      #main-header-wrapper {display: none;}
-     .featured-posts { width:480px;}
-     .posts-wrapper{ width:480px;margin-left:0px;}
-     article{width:480px;}
+     .featured-posts { width:375px;}
+     .posts-wrapper{ width:375px;margin-left:0px;}
+     article{width:375px;}
 }
 @media (max-width: $container-width) {
   .container {
