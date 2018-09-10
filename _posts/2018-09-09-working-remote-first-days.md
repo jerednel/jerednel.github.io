@@ -9,7 +9,6 @@ image:
   feature: cuba-1.jpg
 ---
 
-
-# First Month
-
 I've been working from home for a month now and so far it's just as great as I would have imagined.
+
+## First month
