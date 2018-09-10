@@ -42,11 +42,8 @@
 .posts-wrapper h1 {
   margin: 20px 0px 5px;
 }
-@media (max-width:940px) {
-  .main-header-img img {
-  height: 0;
-  width: 0;
-  }
+@media only screen and (max-width: 640px) {
+     .main-header-img {display: none;}
 }
 @media (max-width: $container-width) {
   .container {
