@@ -1,12 +1,7 @@
 /*
   Site container
 */
-@media (max-width:940px;) {
-.main-header-img img { 
-height: 0;
-width: 0;
-}
-}
+
 .main-header-img{
   max-width:940px;
   padding-top:16px;
@@ -46,6 +41,12 @@ width: 0;
 }
 .posts-wrapper h1 {
   margin: 20px 0px 5px;
+}
+@media (max-width:940px) {
+  .main-header-img img {
+  height: 0;
+  width: 0;
+  }
 }
 @media (max-width: $container-width) {
   .container {
