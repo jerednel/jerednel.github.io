@@ -47,6 +47,9 @@
      .featured-posts { width:350px;}
      .posts-wrapper{ width:350px;margin-left:0px;}
      article{width:350px;}
+     .entry-header{
+       margin-left:0px;
+     }
 }
 @media (max-width: $container-width) {
   .container {
