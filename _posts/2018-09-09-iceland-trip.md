@@ -9,7 +9,7 @@ image:
   feature: cuba-1.jpg
 ---
 
-Our trip to Iceland!
+Iceland was a place I had been wanting to go to for a long time.  I'll put the credit for the desire to IcelandAir whose social media presence has been on point when it comes to photos that make you want to travel.
 
 <script src="https://www.publicalbum.org/js/pa-embed-player.min.js" async></script>
 <div class="pa-embed-player" style="width:100%; height:480px; display:none;"
