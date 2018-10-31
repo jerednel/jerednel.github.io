@@ -5,8 +5,6 @@ title: About
 
 Hey, I'm Jeremy and this is my personal site.  I am a digital media analytics manager with a background in digital marketing across B2B, hospitality, and finance verticals.
 
-<img src="https://jauntist.files.wordpress.com/2015/08/1002062_10200517991885190_1590480613_n.jpg?w=470&h=470" >
-
 I get to dig through large sets of data to glean insights that would otherwise be difficult to surface through the use of data warehousing and various tools such as R, Python, and Tableau.
 
 Education wise, I received my BA in Economics from the University of Iowa, and then an MS in Management of Information Systems from the University of Illinois-Springfield.
