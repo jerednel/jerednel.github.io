@@ -1,5 +1,5 @@
 title:  "JNEL.ME"
-tagline: "a blogger in Chicago"
+tagline: "Jeremy Nelson | Data Analytics | Chicago, IL"
 description:
 
 # Authors documented under _data
@@ -16,9 +16,9 @@ menu:
 - {name: 'Contact', folder: 'pages', file: 'contact.html'}
 
 social:
-- {icon: 'twitter', link: 'https://twitter.com/lavidajer'}
+- {icon: 'twitter', link: 'https://twitter.com/jerednel'}
 - {icon: 'facebook', link: 'https://www.facebook.com/jeremy.nels'}
-- {icon: 'instagram', link: 'https://instagram.com/hownear.howfar'}
+- {icon: 'instagram', link: 'https://instagram.com/jerednel'}
 - {icon: 'envelope', link: 'mailto:jerednel@gmail.com'}
 - {icon: 'rss-square', link: 'feed.xml'}
 
