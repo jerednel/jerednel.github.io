@@ -10,7 +10,7 @@ image:
 ---
 
 
-<em>Annyeonghaseyo!  Kamsamnahida!  </em>The phrases that sum a newcomers experience in Korea perfectly.  Effervescent hospitality from various retail and service industry workers excited to pull you into their stores, clubs, and restaurants coming from nearly every direction.  This is Seoul.
+<em>Annyeonghaseyo!  Kamsamnahida! </em>The phrases that sum a newcomers experience in Korea perfectly.  Effervescent hospitality from various retail and service industry workers excited to pull you into their stores, clubs, and restaurants coming from nearly every direction.  This is Seoul.
 
 ![alt text](https://jauntist.files.wordpress.com/2017/10/img_20170607_143755.jpg)
 
