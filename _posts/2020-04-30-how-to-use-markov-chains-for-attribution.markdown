@@ -31,20 +31,20 @@ After we look at every user path in our dataset we get conditional probabilities
 > P(No Conversion | SEM) = .1
 
 This can be graphically represented.
-![Screen-Shot-2019-04-12-at-3.49.58-PM](/content/images/2019/11/Screen-Shot-2019-04-12-at-3.49.58-PM.png)
+![Screen-Shot-2019-04-12-at-3.49.58-PM](https://res.cloudinary.com/practicaldev/image/fetch/s--_W8NV4kc--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/http://www.jnel.me/content/images/2019/04/Screen-Shot-2019-04-12-at-3.49.58-PM.png)
 
 Notice how the sum of the probabilities extending from the SEM state equal to one.  This is an important property of a Markov process and one that will arise organically if you have engineered your datset properly.
 
 # Connect all the nodes
 Above we only identified the conditional probabilities for scenario in which our current state was SEM.  We now need to go through the same process for every other scenario that is possible to build a networked model that you can follow indefinitely.  
 
-![Screen-Shot-2019-04-12-at-3.57.16-PM-1](/content/images/2019/11/Screen-Shot-2019-04-12-at-3.57.16-PM-1.png)
+![Screen-Shot-2019-04-12-at-3.57.16-PM-1](https://res.cloudinary.com/practicaldev/image/fetch/s--lqw9ngI4--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/http://www.jnel.me/content/images/2019/04/Screen-Shot-2019-04-12-at-3.57.16-PM.png)
 
 # Intuition
 Now up to this point I've written a lot about the process of defining and constructing a Markov chain but I think at this point it is helpful to explain `why` I like these models over standard heuristic based attribution models.  
 
 Look again at the fully constructed network we have created, but pay special attention to the outbound Display vectors that I've highlighted in blue below.
-![Screen-Shot-2019-04-12-at-4.00.17-PM](/content/images/2019/11/Screen-Shot-2019-04-12-at-4.00.17-PM.png)
+![Screen-Shot-2019-04-12-at-4.00.17-PM](https://res.cloudinary.com/practicaldev/image/fetch/s--_8rbWNBE--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/http://www.jnel.me/content/images/2019/04/Screen-Shot-2019-04-12-at-4.00.17-PM.png)
 
 
 According to the data, we have a high likelihood of not converting at about 75% and only a 5% chance of converting the user.  However, that user has a 20% probability of going proceeding to SEM as the next step.  And SEM has a 50% chance of converting!
