@@ -3,6 +3,7 @@ layout: post
 title:  "How to use Markov chains for attribution"
 date:   2020-04-30 16:31:06 -0500
 categories: datascience
+redirect_from: "/how-to-use-markov-chains-for-attribution/"
 ---
 
 A short while ago I published a rather technical post on the development of a python-based attribution model that leverages a probabilistic graphical modeling concept known as a `Markov chain`.
