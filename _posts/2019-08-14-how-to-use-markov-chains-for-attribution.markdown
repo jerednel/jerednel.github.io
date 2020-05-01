@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to use Markov chains for attribution"
-date:   2020-04-30 16:31:06 -0500
+date:   2019-08-14 16:31:06 -0500
 categories: datascience
 redirect_from: "/how-to-use-markov-chains-for-attribution/"
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Analytics/Data Science Pipeline"
-date:   2020-05-01 16:31:06 -0500
+date:   2020-04-30 16:31:06 -0500
 categories: datascience
 ---
 
