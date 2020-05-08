@@ -1,9 +1,9 @@
-title: nelson.eu.org
+title: Jeremy Nelson
 author:
   name: Jeremy Nelson
   email: curtail@sudomail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  A blog with content regarding tech, data analytics, and general BS.
+  Computational Analytics & Machine Learning
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
