@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Analytics for Advertising & Marketing
-permalink: /analytics-for-advertising-marketing/
+title: About Me
+permalink: /computational-analytics-ml/
 ---
 
 I am an analytics practicioner with heavy experience supporting decision making in the areas of advertising and marketing.
