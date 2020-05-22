@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Fundamentals of Artificial Neural Networks"
+date:   2020-05-22 16:31:06 -0500
+categories: ai
+---
+
 This post serves as a growing summary of the fundamentels of artificial neural networks.  
 I will add to it to expand on previous to contain the information to a single post rather
 than have numerous posts floating around disconnected from each other.
