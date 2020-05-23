@@ -34,10 +34,10 @@ in your data set are passed through the neuron sequentially.
 
 There are numerous types of activation functions that can be used.  Here are a few of them.
 
-*Threshold function: 1 if x>=0, 0 if x<0
-*Sigmoid function: 1/(1+e^-x) useful ihe final/output layer especially
-*Rectifier function: max(x,0) 
-*Hyperbolic tangent (tanh): Goes below zero (from -1 to 1)
+*Threshold function: 1 if x>=0, 0 if x<0  
+*Sigmoid function: 1/(1+e^-x) useful ihe final/output layer especially  
+*Rectifier function: max(x,0)  
+*Hyperbolic tangent (tanh): Goes below zero (from -1 to 1)  
 
 If the dependent variable is binary, you could use the threshold function or the sigmoid function.  
 
