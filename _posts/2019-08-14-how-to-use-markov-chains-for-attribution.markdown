@@ -6,7 +6,7 @@ categories: datascience
 redirect_from: "/how-to-use-markov-chains-for-attribution/"
 ---
 
-<meta http-equiv="refresh" content="0" URL="https://www.nelson.pub/2020/04/how-to-use-markov-chains-for-attribution.html">
+<meta http-equiv="refresh" content="0;URL='https://www.nelson.pub/2020/04/how-to-use-markov-chains-for-attribution.html'">
 <link rel="canonical" href="https://www.nelson.pub/2020/04/how-to-use-markov-chains-for-attribution.html">
 
 A short while ago I published a rather technical post on the development of a python-based attribution model that leverages a probabilistic graphical modeling concept known as a `Markov chain`.
