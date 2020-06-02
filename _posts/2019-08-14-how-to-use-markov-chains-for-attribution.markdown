@@ -6,6 +6,9 @@ categories: datascience
 redirect_from: "/how-to-use-markov-chains-for-attribution/"
 ---
 
+<meta http-equiv="refresh" content="0; URL="https://www.nelson.pub/2020/04/how-to-use-markov-chains-for-attribution.html">
+<link rel="canonical" href="https://www.nelson.pub/2020/04/how-to-use-markov-chains-for-attribution.html">
+
 A short while ago I published a rather technical post on the development of a python-based attribution model that leverages a probabilistic graphical modeling concept known as a `Markov chain`.
 
 I realize what might serve as better content is actually the motivation behind doing such a thing, as well as providing a clearer understanding of what is going on behind the scenes.  So to that end, in this post I'll be describing the basics of the Markov process and why we would want to use it in practice for attribution modeling.
