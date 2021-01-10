@@ -1,7 +1,7 @@
 title: Jeremy Nelson
 author:
   name: Jeremy Nelson
-  email: curtail@sudomail.com
+  email: exuviae_slanter@aleeas.com
 description: > # this means to ignore newlines until "show_excerpts:"
   Computational Analytics & Machine Learning
 
@@ -14,7 +14,7 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: loxbagelbite
+    twitter: tensorflowgobrr
     github: jerednel
     # devto: jekyll
     # dribbble: jekyll
