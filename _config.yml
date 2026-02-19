@@ -1,0 +1,33 @@
+# Site settings
+title: "Jeremy Nelson"
+description: "Data engineer. AI tinkerer. Occasional optimizer."
+baseurl: ""
+url: "https://jerednel.github.io"
+author:
+  name: "Jeremy Nelson"
+  email: "jerednel@gmail.com"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+# Theme-inspired settings (custom CSS instead of gem theme)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+
+# Custom settings
+github_username: jerednel
+twitter_username: _JeremyNelson_
+show_excerpts: true
+paginate: 10

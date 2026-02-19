@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    {% seo %}
+</head>
+<body>
+    <div class="container">
+        <header class="site-header">
+            <div class="header-content">
+                <a href="{{ '/' | relative_url }}" class="site-title">
+                    <span class="prompt">~/</span>jeremy
+                </a>
+                <nav class="site-nav">
+                    <a href="{{ '/' | relative_url }}">home</a>
+                    <a href="{{ '/archive' | relative_url }}">archive</a>
+                    <a href="https://github.com/jerednel" target="_blank">github</a>
+                    <a href="https://x.com/_JeremyNelson_" target="_blank">x</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="site-content">
+            {{ content }}
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-content">
+                <p>
+                    <span class="prompt">$</span> echo "Built with Jekyll • {{ 'now' | date: '%Y' }}"
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
