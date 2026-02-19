@@ -7,8 +7,7 @@ layout: default
     <p>
         Data engineer in Chicago. I write about building data pipelines, 
         AI workflows, and the occasional productivity obsession. 
-        Currently optimizing things at <a href="https://bain.com">Bain</a> 
-        and <a href="https://seofriend.io">SEO Friend</a>.
+        Currently building things at <a href="https://bain.com">Bain</a>.
     </p>
 </div>
 
