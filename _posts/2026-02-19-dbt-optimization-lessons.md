@@ -61,9 +61,11 @@ Here's what I learned the hard way: incremental models need to handle late-arriv
 Now, every incremental model I write includes a lookback window:
 
 ```sql
+{% raw %}
 {% if is_incremental() %}
 WHERE updated_at >= (SELECT MAX(updated_at) - INTERVAL '3 days' FROM {{ this }})
 {% endif %}
+{% endraw %}
 ```
 
 Yes, you're reprocessing some rows. But you're also catching the ones that trickle in late because of API delays, timezone issues, or that one microservice that takes its sweet time.

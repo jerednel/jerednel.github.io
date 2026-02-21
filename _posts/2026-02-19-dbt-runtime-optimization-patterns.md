@@ -93,6 +93,7 @@ Our "solution" was to rebuild everything from scratch every day. Safe? Yes. Fast
 The fix was a smarter incremental strategy with a lookback window:
 
 ```sql
+{% raw %}
 {{
     config(
         materialized='incremental',
@@ -119,6 +120,7 @@ WITH source_data AS (
 ),
 
 -- rest of model...
+{% endraw %}
 ```
 
 Yes, we reprocess 3 days of data every run. But that's ~6,000 rows instead of 2 million. The trade-off is obvious.
@@ -134,6 +136,7 @@ We restructured everything into three clear layers:
 **Staging models** (`stg_*`): Thin, 1:1 transformations on source tables. No joins, no aggregations, just clean column names and types.
 
 ```sql
+{% raw %}
 -- stg_orders.sql
 SELECT
     id as order_id,
@@ -145,11 +148,13 @@ SELECT
     promotion_id
 FROM {{ source('sales', 'orders') }}
 WHERE deleted_at IS NULL
+{% endraw %}
 ```
 
 **Intermediate models** (`int_*`): Business logic, complex joins, aggregations. These are internal building blocks.
 
 ```sql
+{% raw %}
 -- int_order_enriched.sql
 SELECT
     orders.*,
@@ -158,6 +163,7 @@ SELECT
 FROM {{ ref('stg_orders') }} orders
 LEFT JOIN {{ ref('stg_customers') }} customers 
     ON orders.customer_id = customers.customer_id
+{% endraw %}
 ```
 
 **Mart models** (`fct_*`, `dim_*`): Final, user-facing tables. Clean, simple, purpose-built.
