@@ -41,13 +41,13 @@ Some paths were in Python scripts. Some were in shell wrappers. Some were in sys
 
 The proper fix would have been configuration management. Ansible, or at least a consistent environment variable scheme. I did not have that. I had thirty minutes of `grep -r` and careful editing. It worked. It was not maintainable.
 
-## The Bear Blog Integration I Almost Forgot
+## The Blog Pipeline Was Simpler Than Expected
 
-My content pipeline generates posts for Bear Blog. The integration was a Python script that called the Bear API. On the old machine, it ran as part of a daily cron job. I moved it to the CX21, ran it manually to test, and got a 401 error.
+My content pipeline generates posts for GitHub Pages. The setup is Jekyll markdown files committed to a repo and pushed — no API, no auth token, just git. On the new machine, the only dependency was the SSH key for GitHub, which I had already handled in the authentication section above.
 
-The Bear Blog API key was in an environment variable on the old machine. I had not exported it. Worse, I could not find where I had originally stored it. I checked my password manager. I checked my notes. I checked email. I found it in a shell history file from six months ago, still there because I had never configured HISTCONTROL.
+The cron that runs the blog writer just needs Python, git, and the right remote configured. It cloned fine. The first test post committed and pushed without issues. Pages built within two minutes.
 
-I set the variable, tested the script, and watched it succeed. Then I added it to systemd's environment file so the cron job would have it. Then I restarted the cron service. Then I realized systemd does not reload environment files on service restart; you need daemon-reload. Another ten minutes of debugging why scheduled posts were not appearing.
+The lesson here was that choosing a dead-simple deployment target paid off at migration time. I evaluated Bear Blog at one point, but there was no clean API for automated posting. Sticking with GitHub Pages meant the blog pipeline was the only thing that did not break during the move.
 
 ## The Monitoring Gap
 
