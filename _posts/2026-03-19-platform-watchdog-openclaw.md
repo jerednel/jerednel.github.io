@@ -5,7 +5,7 @@ date: 2026-03-19
 tags: [devops, openclaw, hetzner, docker, monitoring, debugging]
 ---
 
-I run a small platform on a Hetzner VPS. One Docker stack, a handful of containers, one domain: dev-platform.bymeridian.com. Not a lot of moving parts, but enough to wake up to a broken site and spend 20 minutes figuring out what died and why.
+I run a small platform on a Hetzner VPS. One Docker stack, a handful of containers, one domain: app.bymeridian.com. Not a lot of moving parts, but enough to wake up to a broken site and spend 20 minutes figuring out what died and why.
 
 So I built a watchdog. Not a paid service, not a dedicated monitoring tool. Just an OpenClaw cron job that checks whether the platform is alive and, if it isn't, does something about it.
 
@@ -17,7 +17,7 @@ The VPS runs Ubuntu, Docker Compose stack for the platform app, and OpenClaw for
 
 The watchdog job runs on a recurring interval. Its payload is an `agentTurn` that gets executed in an isolated session. The prompt tells the agent to:
 
-1. Hit the health endpoint at dev-platform.bymeridian.com
+1. Hit the health endpoint at app.bymeridian.com
 2. If it returns 200, do nothing
 3. If it fails or times out, SSH into the server and restart the relevant container
 4. Either way, report back
