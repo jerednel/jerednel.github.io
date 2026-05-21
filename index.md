@@ -11,6 +11,7 @@ layout: default
     </p>
     <div class="hero-links">
         <a href="{{ '/about' | relative_url }}">About</a>
+        <a href="{{ '/projects' | relative_url }}">Projects</a>
         <a href="{{ '/now' | relative_url }}">Now</a>
         <a href="{{ '/uses' | relative_url }}">Uses</a>
         <a href="{{ '/archive' | relative_url }}">Archive</a>
@@ -31,6 +32,10 @@ layout: default
         <div class="feature-card">
             <h3>Harnesses and evaluation</h3>
             <p>If you cannot replay or explain the failure, you do not have much of a harness.</p>
+        </div>
+        <div class="feature-card">
+            <h3>multiharness</h3>
+            <p>A local-first agent harness that routes between local and cloud models without hiding the tradeoffs.</p>
         </div>
     </div>
 </section>
