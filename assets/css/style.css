@@ -177,6 +177,15 @@ body {
     font-size: 1rem;
 }
 
+.feature-card h3 a {
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.feature-card h3 a:hover {
+    color: var(--accent);
+}
+
 .feature-card p {
     color: var(--text-secondary);
     font-size: 0.95rem;

@@ -49,6 +49,10 @@ layout: default
             <p>Short notes on routing, failure visibility, and the parts of the system I actually trust.</p>
         </div>
         <div class="feature-card">
+            <h3><a href="{{ '/2026/05/21/workflow-survives-model-swaps/' | relative_url }}">The workflow survives model swaps</a></h3>
+            <p>A short note on why the real benchmark is whether the system still works after the model changes.</p>
+        </div>
+        <div class="feature-card">
             <h3>Stack</h3>
             <p>The public version of the setup: multiharness, ds4, and the reasoning behind both.</p>
         </div>
