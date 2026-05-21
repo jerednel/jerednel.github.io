@@ -2,27 +2,50 @@
 layout: default
 ---
 
-<div class="home-intro">
-    <h1>Hi, I'm Jeremy.</h1>
+<section class="home-hero">
+    <div class="hero-kicker">Agentic AI, local models, test harnesses</div>
+    <h1>I build AI systems that have to work on real machines.</h1>
     <p>
-        Data engineer in Chicago. I write about building data pipelines, 
-        AI workflows, and the occasional productivity obsession. 
-        Currently building things at <a href="https://bain.com">Bain</a>.
+        Field notes from Chicago. I care about latency, failure modes, and the small
+        boring pieces that turn agent demos into systems people can actually trust.
     </p>
-</div>
+    <div class="hero-links">
+        <a href="{{ '/about' | relative_url }}">About</a>
+        <a href="{{ '/now' | relative_url }}">Now</a>
+        <a href="{{ '/uses' | relative_url }}">Uses</a>
+        <a href="{{ '/archive' | relative_url }}">Archive</a>
+    </div>
+</section>
 
-<h2 style="font-size: 1rem; color: var(--text-muted); margin-bottom: 24px; font-family: 'JetBrains Mono', monospace;">
-    <span class="prompt">$</span> ls -la posts/
-</h2>
+<section>
+    <div class="section-label"><span class="prompt">$</span> focus</div>
+    <div class="feature-grid">
+        <div class="feature-card">
+            <h3>Agent systems that run</h3>
+            <p>Durable tasks, routing, retries, and failure handling. Less demo, more system.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Local AI on real hardware</h3>
+            <p>Mac Studio setups, model choice, latency tradeoffs, and when local is the right move.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Harnesses and evaluation</h3>
+            <p>If you cannot replay or explain the failure, you do not have much of a harness.</p>
+        </div>
+    </div>
+</section>
 
-<ul class="post-list">
-    {% for post in site.posts %}
-    <li class="post-item">
-        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        <div class="post-date">{{ post.date | date: "%b %d, %Y" }}</div>
-        {% if post.excerpt %}
-        <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
-        {% endif %}
-    </li>
-    {% endfor %}
-</ul>
+<section class="archive-section">
+    <div class="section-label"><span class="prompt">$</span> featured writing</div>
+    <ul class="post-list">
+        {% for post in site.posts limit:5 %}
+        <li class="post-item">
+            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+            <div class="post-date">{{ post.date | date: "%b %d, %Y" }}</div>
+            {% if post.excerpt %}
+            <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 180 }}</p>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</section>

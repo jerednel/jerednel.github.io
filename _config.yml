@@ -1,6 +1,6 @@
 # Site settings
 title: "Jeremy Nelson"
-description: "Data engineer. AI tinkerer. Occasional optimizer."
+description: "Agentic AI, local models, and test harnesses. Field notes from real systems."
 baseurl: ""
 url: "https://jerednel.github.io"
 author:
@@ -30,6 +30,6 @@ exclude:
 
 # Custom settings
 github_username: jerednel
-twitter_username: _JeremyNelson_
+twitter_username: n3lson
 show_excerpts: true
 paginate: 10
