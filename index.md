@@ -13,6 +13,7 @@ layout: default
         <a href="{{ '/about' | relative_url }}">About</a>
         <a href="{{ '/projects' | relative_url }}">Projects</a>
         <a href="{{ '/field-notes' | relative_url }}">Field Notes</a>
+        <a href="{{ '/stack' | relative_url }}">Stack</a>
         <a href="{{ '/now' | relative_url }}">Now</a>
         <a href="{{ '/uses' | relative_url }}">Uses</a>
         <a href="{{ '/archive' | relative_url }}">Archive</a>
@@ -41,6 +42,10 @@ layout: default
         <div class="feature-card">
             <h3>Field notes</h3>
             <p>Short notes on routing, failure visibility, and the parts of the system I actually trust.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Stack</h3>
+            <p>The public version of the setup: multiharness, ds4, and the reasoning behind both.</p>
         </div>
     </div>
 </section>
