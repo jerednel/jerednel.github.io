@@ -25,6 +25,7 @@ permalink: /projects/
             <li>routes work to the right model instead of pretending one model fits everything</li>
             <li>keeps failure modes visible instead of burying them behind a polished demo</li>
             <li>makes the harness the thing you can inspect, replay, and trust</li>
+            <li><a href="/multiharness/">case study</a> explains the routing layer in plain language</li>
         </ul>
 
         <h2 style="margin-top: 28px;">ds4</h2>
