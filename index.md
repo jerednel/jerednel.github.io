@@ -12,6 +12,7 @@ layout: default
     <div class="hero-links">
         <a href="{{ '/about' | relative_url }}">About</a>
         <a href="{{ '/projects' | relative_url }}">Projects</a>
+        <a href="{{ '/field-notes' | relative_url }}">Field Notes</a>
         <a href="{{ '/now' | relative_url }}">Now</a>
         <a href="{{ '/uses' | relative_url }}">Uses</a>
         <a href="{{ '/archive' | relative_url }}">Archive</a>
@@ -36,6 +37,10 @@ layout: default
         <div class="feature-card">
             <h3>multiharness</h3>
             <p>A local-first agent harness that routes between local and cloud models without hiding the tradeoffs.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Field notes</h3>
+            <p>Short notes on routing, failure visibility, and the parts of the system I actually trust.</p>
         </div>
     </div>
 </section>
