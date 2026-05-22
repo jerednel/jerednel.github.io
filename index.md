@@ -49,6 +49,10 @@ layout: default
             <p>Short notes on routing, failure visibility, and the parts of the system I actually trust.</p>
         </div>
         <div class="feature-card">
+            <h3><a href="{{ '/2026/05/22/replayable-benchmarks/' | relative_url }}">Replayable benchmarks</a></h3>
+            <p>A short note on why benchmark trust starts when the harness can replay the same failure.</p>
+        </div>
+        <div class="feature-card">
             <h3><a href="{{ '/2026/05/21/workflow-survives-model-swaps/' | relative_url }}">The workflow survives model swaps</a></h3>
             <p>A short note on why the real benchmark is whether the system still works after the model changes.</p>
         </div>
