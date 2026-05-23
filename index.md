@@ -53,6 +53,10 @@ layout: default
             <p>A short note on why benchmark trust starts when the harness can replay the same failure.</p>
         </div>
         <div class="feature-card">
+            <h3><a href="{{ '/2026/05/22/boundary-layer-is-the-product/' | relative_url }}">The boundary layer is the product</a></h3>
+            <p>A short note on why useful local AI stacks need routing, verification, and visible boundaries.</p>
+        </div>
+        <div class="feature-card">
             <h3><a href="{{ '/2026/05/21/workflow-survives-model-swaps/' | relative_url }}">The workflow survives model swaps</a></h3>
             <p>A short note on why the real benchmark is whether the system still works after the model changes.</p>
         </div>
