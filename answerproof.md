@@ -2,7 +2,7 @@
 layout: default
 title: Answerproof
 permalink: /answerproof/
-description: "AI search visibility audits for B2B SaaS teams that need to know where buyers see competitors instead of them."
+description: "AI search visibility audits for B2B SaaS and high-value B2B services teams that need to know where buyers see competitors instead of them."
 ---
 
 <section class="answerproof-hero" style="background-image: linear-gradient(90deg, rgba(8, 13, 19, 0.96) 0%, rgba(8, 13, 19, 0.86) 42%, rgba(8, 13, 19, 0.22) 100%), url('{{ "/assets/images/answerproof-hero.png" | relative_url }}');">
@@ -10,7 +10,7 @@ description: "AI search visibility audits for B2B SaaS teams that need to know w
         <div class="hero-kicker">Answerproof</div>
         <h1>Find out where AI search recommends your competitors instead of you.</h1>
         <p>
-            A productized AI visibility audit for B2B SaaS teams. I test the buyer questions
+            A productized AI visibility audit for B2B SaaS and high-value B2B services teams. I test the buyer questions
             that matter, trace which sources AI systems cite, and turn the gaps into a 30-day
             revenue-search plan.
         </p>
@@ -37,7 +37,7 @@ description: "AI search visibility audits for B2B SaaS teams that need to know w
         <div class="answerproof-panel">
             <h2>Who it is for</h2>
             <ul class="answerproof-list">
-                <li>B2B SaaS teams with an existing category, not a brand-new market.</li>
+                <li>B2B SaaS and services teams with an existing category, not a brand-new market.</li>
                 <li>Founders, CMOs, and growth leads who already care about SEO and conversion.</li>
                 <li>Teams that suspect traditional rankings are no longer the whole discovery path.</li>
                 <li>Companies with 2 to 5 named competitors buyers regularly compare.</li>
@@ -67,6 +67,19 @@ description: "AI search visibility audits for B2B SaaS teams that need to know w
             <p>Everything in Monitor plus done-with-you technical SEO, schema, content briefs, and citation work.</p>
             <a href="mailto:jerednel@gmail.com?subject=Answerproof%20Build">Talk scope</a>
         </article>
+    </div>
+</section>
+
+<section class="answerproof-band">
+    <div class="section-label"><span class="prompt">$</span> positioning</div>
+    <div class="answerproof-proof">
+        <h2>Not another monitoring dashboard.</h2>
+        <p>
+            AI answers already cite plenty of tools and agencies. The expensive gap is knowing which
+            buyer questions matter, why competitors appear, which sources caused the answer, and what
+            to fix first. Answerproof is audit-first: evidence, source trail, and a ranked implementation
+            plan before you buy another dashboard.
+        </p>
     </div>
 </section>
 
@@ -103,6 +116,36 @@ description: "AI search visibility audits for B2B SaaS teams that need to know w
     </div>
 </section>
 
+<section id="prompt-map" class="answerproof-band">
+    <div class="section-label"><span class="prompt">$</span> prompt map</div>
+    <div class="prompt-map-tool">
+        <div>
+            <h2>Generate your first buyer-question map</h2>
+            <p>
+                This does not call an API. It gives you the question set I would use for a
+                first-pass audit, then packages it into an email so I can run the real check.
+            </p>
+        </div>
+        <form class="prompt-map-form" data-prompt-map>
+            <label>
+                <span>Company domain</span>
+                <input type="text" name="domain" placeholder="example.com">
+            </label>
+            <label>
+                <span>Category</span>
+                <input type="text" name="category" placeholder="product analytics">
+            </label>
+            <label>
+                <span>Competitors</span>
+                <input type="text" name="competitors" placeholder="competitor-a.com, competitor-b.com">
+            </label>
+            <button type="button" data-generate-map>Generate map</button>
+        </form>
+        <pre class="prompt-map-output" data-prompt-map-output>Enter a domain, category, and competitors to generate a starter map.</pre>
+        <a class="primary-action prompt-map-mail" data-prompt-map-mail href="mailto:jerednel@gmail.com?subject=Answerproof%20prompt%20map">Email this map</a>
+    </div>
+</section>
+
 <section class="answerproof-band">
     <div class="section-label"><span class="prompt">$</span> why me</div>
     <div class="answerproof-proof">
@@ -132,5 +175,38 @@ description: "AI search visibility audits for B2B SaaS teams that need to know w
 
         scoreForm.addEventListener('input', updateScore);
         updateScore();
+    }
+
+    const promptMapForm = document.querySelector('[data-prompt-map]');
+    const promptMapButton = document.querySelector('[data-generate-map]');
+    const promptMapOutput = document.querySelector('[data-prompt-map-output]');
+    const promptMapMail = document.querySelector('[data-prompt-map-mail]');
+
+    if (promptMapForm && promptMapButton && promptMapOutput && promptMapMail) {
+        const buildPromptMap = () => {
+            const data = new FormData(promptMapForm);
+            const domain = data.get('domain') || 'your company';
+            const category = data.get('category') || 'your category';
+            const competitors = data.get('competitors') || 'your competitors';
+            const lines = [
+                `Company: ${domain}`,
+                `Category: ${category}`,
+                `Competitors: ${competitors}`,
+                '',
+                'Starter buyer questions:',
+                `1. What are the best ${category} tools for a B2B team?`,
+                `2. Which ${category} vendors should I compare before buying?`,
+                `3. What are the top alternatives to ${domain}?`,
+                `4. How does ${domain} compare with ${competitors}?`,
+                `5. What should I know before choosing a ${category} vendor?`,
+                `6. Which ${category} tools are best for a technical team?`,
+                `7. What are the hidden implementation risks with ${category} tools?`
+            ];
+            const body = lines.join('\n');
+            promptMapOutput.textContent = body;
+            promptMapMail.href = `mailto:jerednel@gmail.com?subject=Answerproof%20prompt%20map%20for%20${encodeURIComponent(domain)}&body=${encodeURIComponent(body)}`;
+        };
+
+        promptMapButton.addEventListener('click', buildPromptMap);
     }
 </script>

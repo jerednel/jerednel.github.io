@@ -270,6 +270,7 @@ body {
 
 .answerproof-hero p,
 .score-tool p,
+.prompt-map-tool p,
 .answerproof-proof p,
 .price-card p {
     color: var(--text-secondary);
@@ -288,7 +289,8 @@ body {
 
 .answerproof-offer-grid,
 .pricing-grid,
-.score-tool {
+.score-tool,
+.prompt-map-tool {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 16px;
@@ -301,6 +303,7 @@ body {
 .answerproof-panel,
 .price-card,
 .score-tool,
+.prompt-map-tool,
 .answerproof-proof {
     border: 1px solid var(--border);
     border-radius: 8px;
@@ -310,7 +313,8 @@ body {
 
 .answerproof-panel h2,
 .price-card h2,
-.score-tool h2 {
+.score-tool h2,
+.prompt-map-tool h2 {
     font-size: 1.35rem;
     margin-bottom: 14px;
     letter-spacing: 0;
@@ -376,16 +380,60 @@ body {
     gap: 16px;
 }
 
-.score-form label {
+.score-form label,
+.prompt-map-form label {
     display: grid;
     gap: 8px;
     color: var(--text-secondary);
     font-size: 0.95rem;
 }
 
-.score-form input {
+.score-form input,
+.prompt-map-form input {
     width: 100%;
     accent-color: var(--accent-green);
+}
+
+.prompt-map-form {
+    display: grid;
+    gap: 14px;
+}
+
+.prompt-map-form input {
+    min-height: 42px;
+    padding: 9px 11px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: rgba(8, 16, 25, 0.76);
+    color: var(--text-primary);
+}
+
+.prompt-map-form button {
+    min-height: 44px;
+    border: 0;
+    border-radius: 8px;
+    background: var(--accent-green);
+    color: #081019;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.prompt-map-output {
+    grid-column: 1 / -1;
+    min-height: 180px;
+    white-space: pre-wrap;
+    overflow-x: auto;
+    color: var(--text-primary);
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 18px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9rem;
+}
+
+.prompt-map-mail {
+    justify-self: start;
 }
 
 .score-output {
@@ -643,7 +691,8 @@ body {
     .split-grid,
     .answerproof-offer-grid,
     .pricing-grid,
-    .score-tool {
+    .score-tool,
+    .prompt-map-tool {
         grid-template-columns: 1fr;
     }
 
@@ -692,6 +741,7 @@ body {
     .answerproof-panel,
     .price-card,
     .score-tool,
+    .prompt-map-tool,
     .answerproof-proof {
         padding: 18px;
     }
