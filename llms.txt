@@ -1,0 +1,15 @@
+# Jeremy Nelson
+
+> Field notes and services from Jeremy Nelson: technical SEO, data engineering,
+> AI search visibility, and practical AI systems.
+
+## Key Pages
+
+- [Answerproof](https://jerednel.github.io/answerproof/): Audit-first AI search visibility for B2B SaaS and high-value B2B services teams.
+- [Answerproof sample teardown](https://jerednel.github.io/answerproof/sample/): Public sample showing buyer question, cited domains, source interpretation, and 30-day action plan.
+- [Projects](https://jerednel.github.io/projects/): Current public projects and work.
+- [Field notes](https://jerednel.github.io/field-notes/): Writing on AI systems, local models, routing, and evaluation.
+
+## Contact
+
+Email Jeremy for Answerproof audits: jerednel@gmail.com
