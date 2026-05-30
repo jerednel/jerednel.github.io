@@ -290,7 +290,9 @@ body {
 .answerproof-offer-grid,
 .pricing-grid,
 .score-tool,
-.prompt-map-tool {
+.prompt-map-tool,
+.diagnostic-grid,
+.diagnostic-request {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 16px;
@@ -381,7 +383,8 @@ body {
 }
 
 .score-form label,
-.prompt-map-form label {
+.prompt-map-form label,
+.diagnostic-form label {
     display: grid;
     gap: 8px;
     color: var(--text-secondary);
@@ -389,17 +392,22 @@ body {
 }
 
 .score-form input,
-.prompt-map-form input {
+.prompt-map-form input,
+.diagnostic-form input,
+.diagnostic-form textarea {
     width: 100%;
     accent-color: var(--accent-green);
 }
 
-.prompt-map-form {
+.prompt-map-form,
+.diagnostic-form {
     display: grid;
     gap: 14px;
 }
 
-.prompt-map-form input {
+.prompt-map-form input,
+.diagnostic-form input,
+.diagnostic-form textarea {
     min-height: 42px;
     padding: 9px 11px;
     border: 1px solid var(--border);
@@ -408,7 +416,14 @@ body {
     color: var(--text-primary);
 }
 
-.prompt-map-form button {
+.diagnostic-form textarea {
+    min-height: 138px;
+    resize: vertical;
+    font: inherit;
+}
+
+.prompt-map-form button,
+.diagnostic-form button {
     min-height: 44px;
     border: 0;
     border-radius: 8px;
@@ -416,6 +431,19 @@ body {
     color: #081019;
     font-weight: 700;
     cursor: pointer;
+}
+
+.diagnostic-intro h1 {
+    max-width: 13ch;
+}
+
+.diagnostic-request {
+    align-items: start;
+}
+
+.diagnostic-output-wrap {
+    display: grid;
+    gap: 16px;
 }
 
 .prompt-map-output {
@@ -728,7 +756,9 @@ body {
     .answerproof-offer-grid,
     .pricing-grid,
     .score-tool,
-    .prompt-map-tool {
+    .prompt-map-tool,
+    .diagnostic-grid,
+    .diagnostic-request {
         grid-template-columns: 1fr;
     }
 

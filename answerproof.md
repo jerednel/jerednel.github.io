@@ -15,7 +15,7 @@ description: "AI search visibility audits for B2B SaaS and high-value B2B servic
             revenue-search plan.
         </p>
         <div class="answerproof-actions">
-            <a class="primary-action" href="mailto:jerednel@gmail.com?subject=Answerproof%20audit&body=Company%3A%0AWebsite%3A%0ATop%203%20competitors%3A%0AWhat%20buyers%20ask%20before%20choosing%20you%3A%0A">Book the audit</a>
+            <a class="primary-action" href="{{ '/answerproof/diagnostic/' | relative_url }}">Request diagnostic</a>
             <a class="secondary-action" href="#score">Score your gap</a>
             <a class="secondary-action" href="{{ '/answerproof/sample/' | relative_url }}">See sample</a>
             <a class="secondary-action" href="https://github.com/jerednel/answerproof" target="_blank" rel="noreferrer">View checklist</a>
@@ -54,7 +54,7 @@ description: "AI search visibility audits for B2B SaaS and high-value B2B servic
             <div class="price-label">Diagnostic</div>
             <h2>$1,500</h2>
             <p>One-time audit, delivered as a buyer-question map, competitor citation report, and prioritized fixes.</p>
-            <a href="mailto:jerednel@gmail.com?subject=Answerproof%20Diagnostic">Start diagnostic</a>
+            <a href="{{ '/answerproof/diagnostic/' | relative_url }}">Start diagnostic</a>
         </article>
         <article class="price-card featured-price">
             <div class="price-label">Monitor</div>
