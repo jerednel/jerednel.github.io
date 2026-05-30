@@ -17,6 +17,7 @@ description: "AI search visibility audits for B2B SaaS teams that need to know w
         <div class="answerproof-actions">
             <a class="primary-action" href="mailto:jerednel@gmail.com?subject=Answerproof%20audit&body=Company%3A%0AWebsite%3A%0ATop%203%20competitors%3A%0AWhat%20buyers%20ask%20before%20choosing%20you%3A%0A">Book the audit</a>
             <a class="secondary-action" href="#score">Score your gap</a>
+            <a class="secondary-action" href="https://github.com/jerednel/answerproof" target="_blank" rel="noreferrer">View checklist</a>
         </div>
     </div>
 </section>
