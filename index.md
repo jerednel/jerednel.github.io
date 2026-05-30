@@ -12,6 +12,7 @@ layout: default
     <div class="hero-links">
         <a href="{{ '/about' | relative_url }}">About</a>
         <a href="{{ '/projects' | relative_url }}">Projects</a>
+        <a href="{{ '/answerproof' | relative_url }}">Answerproof</a>
         <a href="{{ '/multiharness' | relative_url }}">multiharness</a>
         <a href="{{ '/field-notes' | relative_url }}">Field Notes</a>
         <a href="{{ '/stack' | relative_url }}">Stack</a>
@@ -24,6 +25,10 @@ layout: default
 <section>
     <div class="section-label"><span class="prompt">$</span> focus</div>
     <div class="feature-grid">
+        <div class="feature-card">
+            <h3><a href="{{ '/answerproof' | relative_url }}">Answerproof</a></h3>
+            <p>An AI search visibility audit for B2B SaaS teams that need to know where buyers see competitors instead.</p>
+        </div>
         <div class="feature-card">
             <h3>Agent systems that run</h3>
             <p>Durable tasks, routing, retries, and failure handling. Less demo, more system.</p>

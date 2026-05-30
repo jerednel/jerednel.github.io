@@ -150,6 +150,39 @@ body {
     color: var(--accent-hover);
 }
 
+.primary-action,
+.secondary-action,
+.price-card a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 11px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.primary-action {
+    background: var(--accent-green);
+    color: #081019;
+}
+
+.primary-action:hover {
+    background: #b6f4c8;
+}
+
+.secondary-action {
+    border: 1px solid rgba(143, 211, 255, 0.42);
+    color: var(--text-primary);
+    background: rgba(8, 16, 25, 0.64);
+}
+
+.secondary-action:hover {
+    border-color: var(--accent);
+    color: var(--accent-hover);
+}
+
 .section-label {
     color: var(--text-muted);
     font-family: 'JetBrains Mono', monospace;
@@ -206,6 +239,167 @@ body {
 .page-intro h1 {
     font-size: clamp(2rem, 4vw, 3rem);
     letter-spacing: -0.04em;
+}
+
+/* Answerproof */
+.answerproof-hero {
+    min-height: 560px;
+    display: flex;
+    align-items: center;
+    margin: -8px 0 44px;
+    padding: 56px;
+    border: 1px solid rgba(143, 211, 255, 0.24);
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.answerproof-hero-copy {
+    max-width: 640px;
+    display: grid;
+    gap: 18px;
+}
+
+.answerproof-hero h1 {
+    font-size: clamp(2.5rem, 6vw, 4.7rem);
+    line-height: 0.98;
+    letter-spacing: 0;
+    max-width: 11ch;
+}
+
+.answerproof-hero p,
+.score-tool p,
+.answerproof-proof p,
+.price-card p {
+    color: var(--text-secondary);
+}
+
+.answerproof-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 6px;
+}
+
+.answerproof-band {
+    margin: 48px 0;
+}
+
+.answerproof-offer-grid,
+.pricing-grid,
+.score-tool {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.pricing-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.answerproof-panel,
+.price-card,
+.score-tool,
+.answerproof-proof {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.025);
+    padding: 24px;
+}
+
+.answerproof-panel h2,
+.price-card h2,
+.score-tool h2 {
+    font-size: 1.35rem;
+    margin-bottom: 14px;
+    letter-spacing: 0;
+}
+
+.answerproof-list {
+    list-style: none;
+    display: grid;
+    gap: 12px;
+}
+
+.answerproof-list li {
+    color: var(--text-secondary);
+    position: relative;
+    padding-left: 20px;
+}
+
+.answerproof-list li::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--accent-green);
+    position: absolute;
+    left: 0;
+    top: 0.72em;
+}
+
+.price-card {
+    display: grid;
+    gap: 14px;
+    align-content: start;
+}
+
+.featured-price {
+    border-color: rgba(139, 233, 168, 0.45);
+    background: rgba(139, 233, 168, 0.06);
+}
+
+.price-label {
+    color: var(--accent);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+}
+
+.price-card h2 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.price-card a {
+    color: #081019;
+    background: var(--accent);
+}
+
+.score-tool {
+    align-items: start;
+}
+
+.score-form {
+    display: grid;
+    gap: 16px;
+}
+
+.score-form label {
+    display: grid;
+    gap: 8px;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.score-form input {
+    width: 100%;
+    accent-color: var(--accent-green);
+}
+
+.score-output {
+    display: block;
+    padding: 14px 16px;
+    border-radius: 8px;
+    background: rgba(143, 211, 255, 0.1);
+    color: var(--text-primary);
+    font-weight: 700;
+}
+
+.answerproof-proof {
+    display: grid;
+    gap: 18px;
 }
 
 .split-grid {
@@ -446,7 +640,10 @@ body {
 /* Mobile */
 @media (max-width: 900px) {
     .feature-grid,
-    .split-grid {
+    .split-grid,
+    .answerproof-offer-grid,
+    .pricing-grid,
+    .score-tool {
         grid-template-columns: 1fr;
     }
 
@@ -480,5 +677,22 @@ body {
     
     .container {
         padding: 0 16px;
+    }
+
+    .answerproof-hero {
+        min-height: 520px;
+        padding: 28px 20px;
+        background-position: 58% center;
+    }
+
+    .answerproof-hero h1 {
+        max-width: 12ch;
+    }
+
+    .answerproof-panel,
+    .price-card,
+    .score-tool,
+    .answerproof-proof {
+        padding: 18px;
     }
 }
