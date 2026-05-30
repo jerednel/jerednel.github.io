@@ -126,6 +126,7 @@ description: "AI search visibility audits for B2B SaaS and high-value B2B servic
             buyer question, cited domains, source interpretation, and 30-day action plan.
         </p>
         <a class="section-link" href="{{ '/answerproof/sample/' | relative_url }}">Open sample teardown</a>
+        <a class="section-link" href="{{ '/2026/05/30/answerproof-ai-search-audit/' | relative_url }}">Read the field note</a>
     </div>
 </section>
 
