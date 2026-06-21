@@ -14,16 +14,14 @@
     <div class="container">
         <header class="site-header">
             <div class="header-content">
-                <a href="{{ '/' | relative_url }}" class="site-title">
-                    <span class="prompt">~/</span>jeremy
+                <a href="{{ '/' | relative_url }}" class="site-title" aria-label="Jeremy Nelson home">
+                    <span class="prompt">~/</span>jerednel
                 </a>
                 <nav class="site-nav">
-                    <a href="{{ '/' | relative_url }}">home</a>
-                    <a href="{{ '/projects' | relative_url }}">projects</a>
-                    <a href="{{ '/answerproof' | relative_url }}">answerproof</a>
-                    <a href="{{ '/about' | relative_url }}">about</a>
-                    <a href="{{ '/now' | relative_url }}">now</a>
-                    <a href="{{ '/uses' | relative_url }}">uses</a>
+                    <a href="{{ '/' | relative_url }}">signal</a>
+                    <a href="{{ '/field-notes' | relative_url }}">field notes</a>
+                    <a href="{{ '/projects' | relative_url }}">systems</a>
+                    <a href="{{ '/stack' | relative_url }}">stack</a>
                     <a href="{{ '/archive' | relative_url }}">archive</a>
                     <a href="https://github.com/jerednel" target="_blank">github</a>
                     <a href="https://x.com/n3lson" target="_blank">x</a>
@@ -38,7 +36,7 @@
         <footer class="site-footer">
             <div class="footer-content">
                 <p>
-                    <span class="prompt">$</span> echo "Built with Jekyll • {{ 'now' | date: '%Y' }}"
+                    <span class="prompt">$</span> tail -f /var/log/jeremy/{{ 'now' | date: '%Y' }}
                 </p>
             </div>
         </footer>

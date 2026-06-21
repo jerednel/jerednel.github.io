@@ -1,6 +1,6 @@
 # Site settings
 title: "Jeremy Nelson"
-description: "Agentic AI, local models, and test harnesses. Field notes from real systems."
+description: "Jeremy Nelson writes about agent systems, local AI, harnesses, failure modes, and the engineering residue that makes automation trustworthy."
 baseurl: ""
 url: "https://jerednel.github.io"
 author:
